@@ -52,4 +52,5 @@
   flex-direction: row;
   gap: 10px;
   justify-content: center;
+  padding: 0;
 }
