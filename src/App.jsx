@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <header>
-        <Link className="banner" to="/creature-creator"><img className="logo" src="/logo.svg" alt="Creature Creator"/></Link>
+        <Link className="banner" to="/creature-creator"><img className="logo" src="images/logo.svg" alt="Creature Creator"/></Link>
       </header>
       <nav className="navbar">
         <ul className="links">

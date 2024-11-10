@@ -1,6 +1,6 @@
 @font-face {
   font-family: Schoolbell;
-  src: local('Schoolbell-Regular'), url('fonts/Schoolbell-Regular.ttf') format('truetype');
+  src: local('Schoolbell-Regular'), url('../public/fonts/Schoolbell-Regular.ttf') format('truetype');
 }
 
 body {
@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner > .logo {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 footer {
