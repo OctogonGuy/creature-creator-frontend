@@ -1,0 +1,55 @@
+.creature-grid {
+  display: grid;
+  row-gap: 16px;
+  column-gap: 24px;
+  padding-top: 1.33em;
+  padding-bottom: 2em;
+}
+
+.creature-grid > .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.creature-grid > .item > .name {
+  margin: 0;
+  padding: 0;
+}
+
+.creature-grid > .item, .creature-grid > .item:hover {
+  color: initial;
+}
+
+@media screen and (min-width: 901px) {
+  .creature-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .creature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .creature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .creature-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
